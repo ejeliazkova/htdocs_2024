@@ -97,7 +97,7 @@
       <hr>
       <p class="text">This page in: <?php echo $switch_language; ?></p>
     <?php elseif ($language == 'en'): ?>
-      <p class="text"><strong>Welcome to MAMP 2024</strong></p>
+      <p class="text"><strong>Welcome to MAMP 2024 beibi</strong></p>
       <p class="text">If you can see this page, MAMP has been properly configured &amp; launched and is now all set to serve your web content. This placeholder page<sup><a href="#footnote-1">1</a></sup> should be replaced or deleted.</p>
       <p class="text">
         Server software: <samp><?php echo strip_tags(htmlentities($_SERVER['SERVER_SOFTWARE'], ENT_QUOTES, 'UTF-8')); ?></samp>  <br>
