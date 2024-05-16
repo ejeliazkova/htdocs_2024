@@ -1,6 +1,6 @@
 <html>
     <head>
-        <title>Home</title>
+        <title>Home Page</title>
         <style>
             .initialParagraph {
                 color: red;
@@ -19,8 +19,32 @@
                 color: green;
             }
 
+            .Div1{
+                width:300px;
+                background-color: lightblue;
+            }
+            .Div2{
+                width:50%;
+                background-color: lightpink;
+            }
+            
+            @media screen and (max-width: 600px) {
+                .Div1{
+                    background-color:blue;
+                }
 
+                .Div2{
+                    background-color: pink;
+                }
+            }
+
+            @media screen and (min-width: 900px){
+                .Div1{
+                    font-size: 30px;
+                }
+            }
         </style>
+        <meta name="viewport" content="width=device-width">
     </head>
         <h1 style="font-size: 15px;">This is the heading 1</h1>
         <h2>there is a heading 2 woah</h2>
@@ -47,7 +71,7 @@
         <br/>
         <br/>
 
-        <div style="background-color: blue">
+        <div class="Div1">
             This is my div
         </div>
 
