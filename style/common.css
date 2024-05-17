@@ -29,6 +29,18 @@ div {
     gap: 5px;
 }
 
+.LogoText{
+    position: relative;
+    top: 10px;
+    color: #687c96;
+}
+
+.LogoText a {
+    text-decoration: none;
+    color: #687c96;
+    cursor: pointer;
+}
+
 .NavMenuWrapper {
     display: flex;
     top: 10px;
@@ -40,3 +52,16 @@ div {
     font-size: 15px;
 }
 
+
+.EmployeeNumber {
+    font-size:12px;
+    color:#999;
+}
+
+
+
+@media screen and (width <= 750px){
+    .NavMenuWrapper {
+        display: none;
+    }
+}

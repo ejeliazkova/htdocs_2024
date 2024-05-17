@@ -1,0 +1,5 @@
+#ignore the macOs metadata file
+**/.DS_Store
+
+#ignore the include folder
+include/
