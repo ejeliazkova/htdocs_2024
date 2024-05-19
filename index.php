@@ -46,9 +46,9 @@
         </style>
         <meta name="viewport" content="width=device-width">
     </head>
-        <h1 style="font-size: 15px;">This is the heading 1</h1>
-        <h2>there is a heading 2 woah</h2>
-        <marquee><a href="https://csszengarden.com/">It's Eva beibi</a></marquee>
+        <h1 style="font-size: 15px;">This is heading 1, but with this css applied to this element, you would never know</h1>
+        <h2>And this is heading 2</h2>
+        <marquee><a href="https://csszengarden.com/">Css Zen Garden</a></marquee>
         <p class="initialParagraph">
             Lorem Ipsum is simply dummy text of the printing and typesetting 
             industry.
@@ -68,11 +68,14 @@
         </p>
         <a href="https://www.linkedin.com/in/eva-j-33b5b2bb/" target="_blank">LinkedIn</a>
         <br/>
+        <a href="info.php">MAMP Info</a>
         <br/>
         <br/>
 
         <div class="Div1">
-            This is my div
+            <a href="about.php">
+                About the fellowship
+            </a>
         </div>
 
         <span style="background-color: green">This is a silly little span</span>

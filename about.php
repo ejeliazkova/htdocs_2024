@@ -2,7 +2,7 @@
     <head>
         <meta charset="UTF-8">
             <title>About</title>
-            <link rel="stylesheet" href="common.css">
+            <link rel="stylesheet" href="style/common.css">
         <style>
         </style>
     </head>
@@ -16,7 +16,7 @@
             </div>
             <div class='NavMenuWrapper'>
                 <div style='font-weight: 600'>About</div>
-                <div>Curriculum</div>
+                <div><a href="php_practice/intro_lesson.php">Curriculum</a></div>
                 <div>Apply</div>
                 <div>Speaker series</div>
                 <div>Contact us</div>
