@@ -1,3 +1,6 @@
+<?php
+    include("include/init.php");
+?>
 <html>
     <head>
         <title>Home Page</title>

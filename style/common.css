@@ -75,6 +75,26 @@ a {
     font-weight: 600;
 }
 
+.BlogWrapper {
+    margin: 50px 30px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+}
+
+.BlogPost {
+    height: 100px;
+    width: 50%;
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #BFBCCB;
+    border-radius: 20px;
+}
+
+.BlogPostTitle {
+    color: #4D5382;
+}
 
 
 @media screen and (width <= 750px){

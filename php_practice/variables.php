@@ -1,4 +1,4 @@
-<html>
+<!-- <html>
     <head>
         <meta charset="UTF-8">
             <title>Fellowship</title>
@@ -24,24 +24,14 @@
             </div>
             <br>
             <br>
-            <div class="ExerciseSection">
+            <div class="ExerciseSection"> -->
                 <?php
-                    // phpinfo();
-                    
+                    include("../init.php");
+                    echoPhpPracticeHeader("Variables");
+
                     // echo(
                     //     "We're  going to add numbers 2 and 5. Here we go: 2 + 5 = 7"
                     // );
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
                     
                     $inputOne = 1;
                     $inputTwo = 2;
@@ -51,9 +41,9 @@
                     echo(
                         "We're going to add the numbers $inputOne and ".$inputTwo.". Here we go: ".$inputOne." + ".$inputTwo." = ".$sum
                     );
-
+                    echoPhpPracticeFooter();
                 ?>
-            </div>
+            <!-- </div>
         </div>
     </body>
-</html>
+</html> -->

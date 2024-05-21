@@ -1,3 +1,7 @@
+<?php
+    include("init.php");
+    
+?>
 <html>
     <head>
         <meta charset="UTF-8">
@@ -26,6 +30,11 @@
             <div>
                 The LACRM fellowship is a paid summer program where a small cohort of fellows will get to learn the basics of web development and build 
                 off of that knowledge to create their own project with the help of a dedicated mentor.
+            </div>
+            <div class="BlogWrapper">
+                <div class="BlogPost"><a href="view_posts.php?postId=1" class="BlogPostTitle">First blog page</a></div>
+                <div class="BlogPost"><a href="view_posts.php?postId=2" class="BlogPostTitle">Second blog page</a></div>
+                <div class="BlogPost"><a href="view_posts.php?postId=3" class="BlogPostTitle">Third blog page</a></div>
             </div>
             <a href='https://www.lessannoyingcrm.com/careers/fellowship'>Official fellowship site</a>
         </div>
