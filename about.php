@@ -1,6 +1,5 @@
 <?php
-    include("init.php");
-    
+    include("include/init.php");
 ?>
 <html>
     <head>

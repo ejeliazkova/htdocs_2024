@@ -26,7 +26,7 @@
             <br>
             <div class="ExerciseSection"> -->
                 <?php
-                    include("../init.php");
+                    include("../include/init.php");
                     echoPhpPracticeHeader("Variables");
 
                     // echo(
