@@ -2,7 +2,7 @@
     <head>
         <meta charset="UTF-8">
             <title>Fellowship</title>
-            <link rel="stylesheet" href="/style/common.css">
+            <link rel="stylesheet" href="/common_style/common.css">
         <style>
         </style>
     </head>

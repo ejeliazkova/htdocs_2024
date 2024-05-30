@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Danfo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Danfo&family=Rubik+Mono+One&display=swap');
+
+.BlogWrapper {
+    margin: 50px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+}
+
+.BlogPost {
+    height: 100px;
+    width: 50%;
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #BFBCCB;
+    border-radius: 20px;
+}
+
+.BlogPostTitle {
+    color: #4D5382;
+}
+
+.BlogContentWrapper {
+    display: flex;
+    gap: 10px;
+}
+
+.ViewPostTitle {
+    /* color: #188FA7; */
+    /* font-family: "Danfo", serif; */
+    font-family: "Rubik Mono One", monospace;
+    color: #A6B1E1;
+    font-size: 50px;
+}
+
+.BlogText {
+    /* background-color: #E2DBBE; */
+    /* background-color: #f5f0df; */
+    background-color: #D6E5E3;
+    padding: 40px 50px;
+    border-radius: 20px;
+    flex: 3;
+}
+
+.BlogComments{
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+}

@@ -75,25 +75,18 @@ a {
     font-weight: 600;
 }
 
-.BlogWrapper {
-    margin: 50px 30px;
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-    width: 100%;
-}
-
-.BlogPost {
-    height: 100px;
-    width: 50%;
-    text-align: center;
-    padding: 40px 20px;
-    background-color: #BFBCCB;
-    border-radius: 20px;
-}
-
-.BlogPostTitle {
-    color: #4D5382;
+.Button {
+    background-color: #188FA7;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 12px 35px;
+    font-size: 15px;
+    font-weight: 600;
+    white-space: nowrap;
+    border-radius: 100px;
+    border-style: hidden;
+    cursor: pointer;
+    display: inline-block;
 }
 
 

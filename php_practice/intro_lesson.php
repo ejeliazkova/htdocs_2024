@@ -2,7 +2,7 @@
     <head>
         <meta charset="UTF-8">
             <title>Fellowship</title>
-            <link rel="stylesheet" href="/style/common.css">
+            <link rel="stylesheet" href="/common_style/common.css">
         <style>
         </style>
     </head>
@@ -19,6 +19,7 @@
                 <div><a href="conditionals.php" target="_self">Conditionals</a></div>
                 <div><a href="functions.php" target="_self">Functions</a></div>
                 <div><a href="arrays.php" target="_self">Arrays</a></div>
+                <div><a href="globals.php" target="_self">Globals</a></div>
             </div>
         </div>
         <div class='MainWrapper_Vertical'>
