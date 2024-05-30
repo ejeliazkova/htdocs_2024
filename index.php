@@ -49,6 +49,21 @@
             <a href='newsletter.php?postId=4'>Newsletter</a>
             <a href='security.php?postId=5'>Security</a>
             <a href='password_hashing.php'>Password Hashing</a>
+            <a onclick='showHiddenText()'>Javascript</a>
+            <p class='hiddenJsButton'>it says something</p>
+            <script>
+                function showHiddenText(){
+                    var firstHiddenButton = document.getElementsByClassName("hiddenJsButton")[0];
+                    var listOfClassesAppliedToButton = firstHiddenButton.classList;
+                    
+                    if (listOfClassesAppliedToButton.contains("visibleJsButton")) {
+                        firstHiddenButton.classList.remove("visibleJsButton"); //hide it if it's visible
+                    }else{
+                        firstHiddenButton.classList.add("visibleJsButton"); //make it visible if it isn't already 
+                    }
+                }
+            </script>
+            <a class='hiddenJsButton' href='javascript.php'>I just used JS to update the page without reload</a>
         </div>
     </body>
 </html>

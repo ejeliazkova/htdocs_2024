@@ -89,6 +89,16 @@ a {
     display: inline-block;
 }
 
+.hiddenJsButton{
+    display: none;
+}
+
+.visibleJsButton{
+    display: block;
+    color:#188FA7;
+    font-size: 10px;
+}
+
 
 @media screen and (width <= 750px){
     .NavMenuWrapper {
